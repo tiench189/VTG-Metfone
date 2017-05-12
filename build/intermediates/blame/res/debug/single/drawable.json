@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow.xml",
+        "source": "D:\\Other Projects\\VTG-Metfone\\res\\drawable\\shadow.xml"
+    },
+    {
+        "merged": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\res\\merged\\debug\\drawable\\border_btn.xml",
+        "source": "D:\\Other Projects\\VTG-Metfone\\res\\drawable\\border_btn.xml"
+    },
+    {
+        "merged": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
+        "source": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_dialog.xml",
+        "source": "D:\\Other Projects\\VTG-Metfone\\res\\drawable\\bg_dialog.xml"
+    },
+    {
+        "merged": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\res\\merged\\debug\\drawable\\border_main_color.xml",
+        "source": "D:\\Other Projects\\VTG-Metfone\\res\\drawable\\border_main_color.xml"
+    },
+    {
+        "merged": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
+        "source": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\res\\merged\\debug\\drawable\\border_layout.xml",
+        "source": "D:\\Other Projects\\VTG-Metfone\\res\\drawable\\border_layout.xml"
+    },
+    {
+        "merged": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
+        "source": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
+        "source": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\res\\merged\\debug\\drawable\\border_black.xml",
+        "source": "D:\\Other Projects\\VTG-Metfone\\res\\drawable\\border_black.xml"
+    },
+    {
+        "merged": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\res\\merged\\debug\\drawable\\border_white.xml",
+        "source": "D:\\Other Projects\\VTG-Metfone\\res\\drawable\\border_white.xml"
+    },
+    {
+        "merged": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    }
+]

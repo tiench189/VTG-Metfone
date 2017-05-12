@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="slidingmenu_offset">60.0dip</dimen>
+    <dimen name="list_padding">10.0dip</dimen>
+    <dimen name="shadow_width">15.0dip</dimen>
+    <dimen name="header_icon">30.0dip</dimen>
+    <dimen name="item_icon">30.0dip</dimen>
+    <dimen name="default_padding">10.0dip</dimen>
+    <dimen name="text_menu">14.0dip</dimen>
+    <dimen name="text_header">18.0dip</dimen>
+    <dimen name="login_padding">20.0dip</dimen>
+    <dimen name="topic_height">220.0dip</dimen>
+    <dimen name="tick_size">20.0dip</dimen>
+    <dimen name="profile_btn_width">150.0dip</dimen>
+    <dimen name="text_label">16.0dip</dimen>
+    <dimen name="text_value">14.0dip</dimen>
+    <dimen name="dialog_width">300.0dip</dimen>
+    <dimen name="padding_first">30.0dip</dimen>
+    <dimen name="highlight_value">18.0dip</dimen>
+    <dimen name="normal_info">16.0dip</dimen>
+    <dimen name="header_topic">16.0dip</dimen>
+    <dimen name="indicator_size">8.0dip</dimen>
+    <dimen name="topic_status_text">16.0dip</dimen>
+    <dimen name="topic_btn_text">10.0dip</dimen>
+    <dimen name="data_margin">20.0dip</dimen>
+    <dimen name="divider_text">16.0dip</dimen>
+    <dimen name="showroom_name">16dip</dimen>
+    <dimen name="showroom_des">13.0dip</dimen>
+    <dimen name="text_profile">16.0dip</dimen>
+    <dimen name="topic_balance_text">16.0dip</dimen>
+    <dimen name="size_main_ico">70.0dip</dimen>
+    <dimen name="padding_main_topic">10.0dip</dimen>
+    <dimen name="padding_info_topic">15.0dip</dimen>
+    <dimen name="cursor_width">20.0dip</dimen>
+    <dimen name="text_charge">13.0dip</dimen>
+</resources>

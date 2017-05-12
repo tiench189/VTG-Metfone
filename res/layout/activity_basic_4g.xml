@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@color/main_color" >
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="@dimen/header_icon"
+                android:layout_height="@dimen/header_icon"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/service"
+                android:textColor="#fff"
+                android:textSize="@dimen/text_header"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@color/gray2"
+            android:orientation="vertical"
+            android:weightSum="7.0" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="5.0" >
+
+                <RelativeLayout
+                    android:id="@+id/layout_indicator"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:paddingLeft="@dimen/default_padding"
+                    android:paddingRight="@dimen/default_padding" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/account_info"
+                        android:textColor="#000"
+                        android:textSize="@dimen/divider_text" />
+                </RelativeLayout>
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/pager_banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@id/layout_indicator"
+                    android:layout_marginBottom="@dimen/default_padding"
+                    android:layout_weight="1.0" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.0" >
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/default_padding"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/border_black"
+                            android:padding="1dp" >
+
+                            <ProgressBar
+                                android:id="@+id/pb_basic_account"
+                                
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true" />
+
+                            <RelativeLayout
+                                android:id="@+id/layout_basic_account"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#fff" >
+
+                                <RelativeLayout
+                                    android:id="@+id/rl1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/default_padding" >
+
+                                    <TextView
+                                        android:id="@+id/label_basic"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="@string/service"
+                                        android:textColor="#000"
+                                        android:textSize="@dimen/header_topic" />
+
+                                    <TextView
+                                        android:id="@+id/tv_basic_value"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@id/label_basic"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginTop="@dimen/default_padding"
+                                        android:text="4G"
+                                        android:textColor="@color/main_color"
+                                        android:textSize="@dimen/highlight_value"
+                                         />
+                                </RelativeLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/rl1"
+                                    android:layout_marginTop="@dimen/default_padding"
+                                    android:weightSum="2.0" >
+
+                                    <RelativeLayout
+                                        android:id="@+id/btn_info"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentBottom="true"
+                                        android:layout_marginRight="1dp"
+                                        android:layout_weight="1.0"
+                                        android:background="@color/main_color"
+                                        android:paddingBottom="@dimen/default_padding"
+                                        android:paddingTop="@dimen/default_padding" >
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_centerInParent="true"
+                                            android:singleLine="true"
+                                            android:text="@string/info"
+                                            android:textColor="#fff" />
+                                    </RelativeLayout>
+
+                                    <RelativeLayout
+                                        android:id="@+id/btn_pack"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentBottom="true"
+                                        android:layout_marginLeft="1dp"
+                                        android:layout_weight="1.0"
+                                        android:background="@color/main_color"
+                                        android:paddingBottom="@dimen/default_padding"
+                                        android:paddingTop="@dimen/default_padding" >
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_centerInParent="true"
+                                            android:singleLine="true"
+                                            android:text="@string/pack_4g"
+                                            android:textColor="#fff" />
+                                    </RelativeLayout>
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </ScrollView>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_left.xml",
+        "source": "D:\\Other Projects\\VTG-Metfone\\res\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_left.xml",
+        "source": "D:\\Other Projects\\VTG-Metfone\\res\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_right.xml",
+        "source": "D:\\Other Projects\\VTG-Metfone\\res\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "D:\\Other Projects\\VTG-Metfone\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_right.xml",
+        "source": "D:\\Other Projects\\VTG-Metfone\\res\\anim\\slide_in_right.xml"
+    }
+]

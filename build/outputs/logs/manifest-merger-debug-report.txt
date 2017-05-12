@@ -1,0 +1,287 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:1:1-125:12
+	package
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:3:5-34
+		INJECTED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml
+		INJECTED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:5:5-30
+		INJECTED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml
+		INJECTED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:2:5-51
+	android:versionCode
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:4:5-28
+		INJECTED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml
+		INJECTED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:1:11-69
+uses-sdk
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.4.0\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:9.4.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:9:9-38
+		INJECTED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml
+		INJECTED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:8:9-35
+		INJECTED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml
+		INJECTED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:11:22-72
+uses-permission#com.vtg.app.metfone.permission.MAPS_RECEIVE
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:13:5-83
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:13:22-80
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:14:5-79
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.4.0\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:15:5-67
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.4.0\AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:15:22-64
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:16:5-98
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:16:22-95
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:17:22-78
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:18:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:19:22-76
+uses-feature#0x00020000
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:21:5-23:35
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.4.0\AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:22:9-41
+	android:required
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:23:9-32
+application
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:25:5-123:19
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.4.0\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-base:9.4.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:28:9-41
+	android:allowBackup
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:26:9-35
+	android:icon
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:27:9-40
+	android:theme
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:29:9-56
+activity#com.vtg.app.ActivitySplash
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:30:9-40:20
+	android:label
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:33:13-45
+	android:launchMode
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:34:13-44
+	android:configChanges
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:32:13-74
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:31:13-54
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:35:13-39:29
+action#android.intent.action.MAIN
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:38:27-74
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:42:9-45:46
+	tools:ignore
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:45:13-44
+	android:value
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:44:13-51
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:43:13-62
+activity#com.vtg.app.ActivityTariff
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:47:9-49:77
+	android:configChanges
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:49:13-74
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:48:13-54
+activity#com.vtg.app.ActivityDebitHistory
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:50:9-52:77
+	android:configChanges
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:52:13-74
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:51:13-60
+activity#com.vtg.app.ActivityBasicOffer
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:53:9-55:77
+	android:configChanges
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:55:13-74
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:54:13-58
+activity#com.vtg.app.ActivityVas
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:56:9-58:77
+	android:configChanges
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:58:13-74
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:57:13-51
+activity#com.vtg.app.ActivityBasicDebit
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:59:9-61:77
+	android:configChanges
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:61:13-74
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:60:13-58
+activity#com.vtg.app.ActivityFirst
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:62:9-64:77
+	android:configChanges
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:64:13-74
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:63:13-53
+activity#com.vtg.app.ActivityBasicAccount
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:65:9-67:77
+	android:configChanges
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:67:13-74
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:66:13-60
+activity#com.vtg.app.ActivityBasic3G
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:68:9-70:77
+	android:configChanges
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:70:13-74
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:69:13-55
+activity#com.vtg.app.ActivityBuyPackage
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:71:9-73:77
+	android:configChanges
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:73:13-74
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:72:13-58
+activity#com.vtg.app.ActivityMain
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:74:9-76:77
+	android:configChanges
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:76:13-74
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:75:13-52
+activity#com.vtg.app.ActivityShowroom
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:77:9-79:77
+	android:configChanges
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:79:13-74
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:78:13-56
+activity#com.vtg.app.ActivitySetting
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:80:9-82:77
+	android:configChanges
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:82:13-74
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:81:13-55
+activity#com.vtg.app.ActivityProfiles
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:83:9-85:77
+	android:configChanges
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:85:13-74
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:84:13-56
+activity#com.vtg.app.ActivityAbout
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:86:9-88:77
+	android:configChanges
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:88:13-74
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:87:13-53
+activity#com.vtg.app.ActivityBalanceInfo
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:89:9-91:77
+	android:configChanges
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:91:13-74
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:90:13-59
+activity#com.vtg.app.ActivityRegis
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:92:9-94:77
+	android:configChanges
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:94:13-74
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:93:13-53
+activity#com.vtg.app.ActivityWithoutLogin
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:95:9-97:77
+	android:configChanges
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:97:13-74
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:96:13-60
+activity#com.vtg.app.ActivityChargeHistory
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:98:9-100:77
+	android:configChanges
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:100:13-74
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:99:13-61
+activity#com.vtg.app.ActivityRefillHistory
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:101:9-103:77
+	android:configChanges
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:103:13-74
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:102:13-61
+activity#com.vtg.app.ActivityRegisterProfile
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:104:9-106:77
+	android:configChanges
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:106:13-74
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:105:13-63
+activity#com.vtg.app.ActivityVasUnused
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:107:9-109:77
+	android:configChanges
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:109:13-74
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:108:13-57
+activity#com.vtg.app.ActivityMap
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:110:9-112:77
+	android:configChanges
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:112:13-74
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:111:13-51
+activity#com.vtg.app.ActivityNew
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:113:9-115:77
+	android:configChanges
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:115:13-74
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:114:13-51
+activity#com.vtg.app.ActivityWebview
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:116:9-118:77
+	android:configChanges
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:118:13-74
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:117:13-55
+meta-data#com.google.android.gms.version
+ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:120:9-122:69
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:122:13-66
+	android:name
+		ADDED from D:\Other Projects\VTG-Metfone\AndroidManifest.xml:121:13-58
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.4.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\AndroidManifest.xml:20:19-85

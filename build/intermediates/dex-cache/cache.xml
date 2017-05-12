@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="D:\Other Projects\VTG-Metfone\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.0.0_08b16856724fa3fb4e27eb337c3e2a21cf114629\classes.dex" />
+    </item>
+    <item
+        jar="D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="D:\Other Projects\VTG-Metfone\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_16cc6948ef5aba3b158a6acdab57037146f95af2\classes.dex" />
+    </item>
+    <item
+        jar="D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
+        <dex dex="D:\Other Projects\VTG-Metfone\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.4.0_8ede7fe4126fda610810d93c4d7107ede60e1c4e\classes.dex" />
+    </item>
+    <item
+        jar="D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="D:\Other Projects\VTG-Metfone\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_126ee2d2c2cd34668adffdd5dc2a91267425f1d4\classes.dex" />
+    </item>
+    <item
+        jar="D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="D:\Other Projects\VTG-Metfone\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_5c998547a388f3b4472c05b3eedb8ebbb0338aef\classes.dex" />
+    </item>
+    <item
+        jar="D:\Other Projects\VTG-Metfone\libs\devsmartlib.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="8874ca4c8cc30152d52f3c81d404661bc715be16">
+        <dex dex="D:\Other Projects\VTG-Metfone\build\intermediates\transforms\dex\debug\folders\1000\2\devsmartlib_21bb199dd47a823ff4fe60ba0c3a0ad33ba06a93\classes.dex" />
+    </item>
+    <item
+        jar="D:\Other Projects\VTG-Metfone\libs\glide-3.6.1.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="D:\Other Projects\VTG-Metfone\build\intermediates\transforms\dex\debug\folders\1000\2\glide-3.6.1_94d3537acb70f1fec83c7ba87c2acbb86ff4f278\classes.dex" />
+    </item>
+    <item
+        jar="D:\Other Projects\VTG-Metfone\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="b045d581c2fbbaf8e65988e5a3d4c4d19737ec68">
+        <dex dex="D:\Other Projects\VTG-Metfone\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_601b306520873480704d544de910076c98d19d95\classes.dex" />
+    </item>
+    <item
+        jar="D:\Other Projects\VTG-Metfone\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="522bc8e3546ed8d49b7e7cd1b90f5f956e584fba">
+        <dex dex="D:\Other Projects\VTG-Metfone\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c1260ceb03be24e47efb94eaab6e59ff38ef610e\classes.dex" />
+    </item>
+    <item
+        jar="D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="D:\Other Projects\VTG-Metfone\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_6fa3f0d7de9c8c9360714c46a72645f816ab7b20\classes.dex" />
+    </item>
+    <item
+        jar="D:\Other Projects\VTG-Metfone\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="D:\Other Projects\VTG-Metfone\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.0.0_36fb652b0b915c32dc4c559818e6fee7a3c16c43\classes.dex" />
+    </item>
+    <item
+        jar="D:\Other Projects\VTG-Metfone\libs\actionbarsherlock.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="5863648e9760ec253e8d4307beadde6faaaf8811">
+        <dex dex="D:\Other Projects\VTG-Metfone\build\intermediates\transforms\dex\debug\folders\1000\2\actionbarsherlock_f0419306a63e8670df0bba9266a9a140f9f1a5e1\classes.dex" />
+    </item>
+
+</items>

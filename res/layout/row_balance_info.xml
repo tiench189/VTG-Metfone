@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_balance"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:padding="@dimen/default_padding">
+
+    <TextView
+        android:id="@+id/tv_balance_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="#000"
+        android:textSize="@dimen/text_label"
+         />
+
+    <TextView
+        android:id="@+id/tv_balance_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/tv_balance_value"
+        android:singleLine="true"
+        android:textColor="#000"
+        android:textSize="@dimen/text_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_balance_name"
+        android:layout_marginTop="@dimen/default_padding"
+        android:text="@string/expity_date"
+        android:textColor="#000"
+        android:textSize="@dimen/text_label" />
+
+    <TextView
+        android:id="@+id/tv_balance_expire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_balance_value"
+        android:layout_marginTop="@dimen/default_padding"
+        android:textColor="#000"
+        android:textSize="@dimen/text_label"
+         />
+
+</RelativeLayout>

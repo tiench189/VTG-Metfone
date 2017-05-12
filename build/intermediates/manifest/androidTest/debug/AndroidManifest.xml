@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vtg.app.metfone.test">
+
+    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="22" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="com.vtg.app.metfone"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for com.vtg.app.metfone"/>
+</manifest>

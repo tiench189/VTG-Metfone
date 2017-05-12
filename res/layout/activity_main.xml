@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@color/main_color" >
+
+            <ImageView
+                android:id="@+id/ivMenu"
+                android:layout_width="@dimen/header_icon"
+                android:layout_height="@dimen/header_icon"
+                android:layout_centerVertical="true"
+                android:src="@drawable/menu_" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/header_icon"
+                android:padding="5dp"
+                android:src="@drawable/logo" />
+
+            <ImageView
+                android:id="@+id/ivNoti"
+                android:layout_width="@dimen/header_icon"
+                android:layout_height="@dimen/header_icon"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ico_noti" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@color/gray2"
+            android:orientation="vertical"
+            android:weightSum="7.0" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="5.0" >
+
+                <RelativeLayout
+                    android:id="@+id/layout_indicator"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:paddingLeft="@dimen/default_padding"
+                    android:paddingRight="@dimen/default_padding"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/label1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="NAME"
+                        android:textColor="@color/text_gray"
+                        android:textSize="@dimen/divider_text"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/label1"
+                        android:text="OR STATUS"
+                        android:textColor="@color/text_gray"
+                        android:textSize="@dimen/divider_text" />
+                </RelativeLayout>
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/pager_banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@id/layout_indicator"
+                    android:layout_weight="1.0" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.0" >
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="@dimen/default_padding" >
+
+                        <RelativeLayout
+                            android:id="@+id/layout_balance"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/default_padding"
+                            android:layout_marginRight="@dimen/default_padding"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/border_white"
+                            android:padding="@dimen/padding_main_topic" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true" >
+
+                                <ImageView
+                                    android:layout_width="@dimen/size_main_ico"
+                                    android:layout_height="@dimen/size_main_ico"
+                                    android:src="@drawable/ico_balance" />
+
+                                <TextView
+                                    android:id="@+id/tvBalanceStatus"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/default_padding"
+                                    android:layout_weight="1.0"
+                                    android:gravity="center_vertical"
+                                    android:paddingLeft="@dimen/padding_info_topic"
+                                    android:text="Basic balance: USD
+Expiry Date:"
+                                    android:textColor="@color/main_color"
+                                    android:textSize="@dimen/topic_balance_text"
+                                     />
+
+                                <ImageView
+                                    android:layout_width="@dimen/cursor_width"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/cursor" />
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/layout_data"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/default_padding"
+                            android:layout_marginRight="@dimen/default_padding"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/border_white"
+                            android:padding="@dimen/padding_main_topic" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true" >
+
+                                <ImageView
+                                    android:layout_width="@dimen/size_main_ico"
+                                    android:layout_height="@dimen/size_main_ico"
+                                    android:src="@drawable/ico_data" />
+
+                                <TextView
+                                    android:id="@+id/tvDataStatus"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1.0"
+                                    android:gravity="center_vertical"
+                                    android:maxLines="3"
+                                    android:paddingLeft="@dimen/padding_info_topic"
+                                    android:text="Data package"
+                                    android:textColor="@color/main_color"
+                                    android:textSize="@dimen/topic_balance_text" />
+
+                                <ImageView
+                                    android:layout_width="@dimen/cursor_width"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/cursor" />
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/layout_offer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/default_padding"
+                            android:layout_marginRight="@dimen/default_padding"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/border_white"
+                            android:padding="@dimen/padding_main_topic" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true" >
+
+                                <ImageView
+                                    android:layout_width="@dimen/size_main_ico"
+                                    android:layout_height="@dimen/size_main_ico"
+                                    android:src="@drawable/ico_offer" />
+
+                                <TextView
+                                    android:id="@+id/tvOfferStatus"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1.0"
+                                    android:gravity="center_vertical"
+                                    android:paddingLeft="@dimen/padding_info_topic"
+                                    android:text="@string/special_offer"
+                                    android:textColor="@color/main_color"
+                                    android:textSize="@dimen/topic_balance_text" />
+
+                                <ImageView
+                                    android:layout_width="@dimen/cursor_width"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/cursor" />
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/layout_vas"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/default_padding"
+                            android:layout_marginRight="@dimen/default_padding"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/border_white"
+                            android:padding="@dimen/padding_main_topic" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true" >
+
+                                <ImageView
+                                    android:layout_width="@dimen/size_main_ico"
+                                    android:layout_height="@dimen/size_main_ico"
+                                    android:src="@drawable/ico_vas" />
+
+                                <TextView
+                                    android:id="@+id/tvServiceStatus"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1.0"
+                                    android:gravity="center_vertical"
+                                    android:paddingLeft="@dimen/padding_info_topic"
+                                    android:text="@string/value_added_services"
+                                    android:textColor="@color/main_color"
+                                    android:textSize="@dimen/topic_balance_text" />
+
+                                <ImageView
+                                    android:layout_width="@dimen/cursor_width"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/cursor" />
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/layout_transaction"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/default_padding"
+                            android:layout_marginRight="@dimen/default_padding"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/border_white"
+                            android:padding="@dimen/padding_main_topic" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true" >
+
+                                <ImageView
+                                    android:layout_width="@dimen/size_main_ico"
+                                    android:layout_height="@dimen/size_main_ico"
+                                    android:src="@drawable/ico_transaction" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1.0"
+                                    android:gravity="center_vertical"
+                                    android:paddingLeft="@dimen/padding_info_topic"
+                                    android:text="@string/transaction_search"
+                                    android:textColor="@color/main_color"
+                                    android:textSize="@dimen/topic_balance_text" />
+
+                                <ImageView
+                                    android:layout_width="@dimen/cursor_width"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/cursor" />
+                            </LinearLayout>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </ScrollView>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_splash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/splash" />
+    </RelativeLayout>
+
+</RelativeLayout>

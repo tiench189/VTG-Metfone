@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86_64,x86"
+    api-level="23"
+    density="560dpi"
+    format="7"
+    timestamp="44665831723644"
+    token="-7117027680317129627" >
+
+    <task
+        name="javac"
+        duration="78541" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="6595" />
+    <task
+        name="verifier"
+        duration="4129" />
+
+    <artifact
+        location="D:\Other Projects\VTG-Metfone\build\outputs\apk\VTG-Metfone-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="44665831723644" >
+        <artifact
+            location="D:\Other Projects\VTG-Metfone\build\outputs\apk\VTG-Metfone-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
